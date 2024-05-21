@@ -1,0 +1,191 @@
+/* font links */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* common start */
+body{
+   margin: 0;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+   color: #626262;
+}
+.m-auto{
+	margin: 0 auto;
+}
+/* common end */
+/* header start */
+header{
+	padding: 30px 0;
+}
+.ubuntu{
+	font-family: "Ubuntu", sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   color: #b4ad9e;
+   text-transform: uppercase;
+}
+.container{
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	float: left;
+/* 	margin-top: 10px; */
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: 114px;
+	color: #626262;
+	 border-bottom: 2px solid transparent;
+	 transition: .33s linear;
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+.menu ul li a:hover {
+   border-bottom: 2px solid #626262;
+}
+/* header end */
+/* banner start */
+.container img{
+	width: 100%;
+}
+/* banner end */
+/* photodiary start */
+.diary{
+    padding-top: 64px;
+}
+.wrapper{
+    width: 76%;
+    word-spacing: 1px;
+}
+.wrapper h1{
+   font-size: 30px;
+}
+.wrapper p{
+   font-size: 16px;
+   margin-bottom: 38px;
+}
+/* photodiary end */
+/* lifestyle start */
+.wrap{
+	padding-top: 110px;
+}
+.image{
+   overflow: hidden;
+}
+.f-single{
+   width: 45%;
+   float: left;
+   margin-right: 51px;
+   padding-bottom: 105px;
+}
+.f-single img{
+	width: 100%;
+}
+.f-single p{
+	font-size: 14px;
+}
+.cut{
+	margin-right: 0;
+   float: right;
+}
+
+/* lifestyle end */
+/* signup start */
+.signup{
+	background: #f0f0f0;
+	padding: 59px 0;
+}
+.container2{
+	width: 30%;
+}
+.container2 h1{
+   color: #000000;
+   font-size: 31px;
+    font-weight: 500;
+    word-spacing: 4px
+}
+.b-border{
+	border-bottom: 2px solid black;
+	padding-bottom: 13px;
+	padding-top: 26px;
+
+}
+.b-border input{
+	display: inline-block;
+	color: #626262;
+	background: transparent;
+	outline: none;
+	border: none;
+}
+.b-border img{
+	width: 40px;
+   margin-top: -8px;
+   float: right;
+}
+/* signup end */
+/* load more start */
+.button{
+   margin: 0 auto;
+    width: 13%;
+    padding-bottom: 172px;
+}
+.button a button{
+    width: 100%;
+    padding: 0;
+    font-size: 21px;
+    letter-spacing: 1px;
+    padding: 13px 0;
+    background: transparent;
+    border: 1px solid;
+    color: #626262;
+}
+/* load more end */
+/* footer start */
+.f-container{
+   overflow: hidden;
+   background: #f0f0f0;
+}
+.f-item{
+   width: 15%;
+   float: left;
+   margin-left: 152px;
+    margin-top: 15px;
+}
+.f-item p{
+	font-size: 14px;
+    display: inline-block;
+    margin-right: 7px
+}
+.icons{
+   width: 15%;
+   float: right;
+   margin-top: 12px;
+}
+.icons p{
+	display: inline-block;
+    margin-right: 24px;
+}
+.icons i{
+	margin-right: 14px;
+}
+/* footer end */
