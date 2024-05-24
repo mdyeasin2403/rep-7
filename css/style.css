@@ -31,7 +31,7 @@ header{
 .logo{
 	width: 12%;
 	float: left;
-/* 	margin-top: 10px; */
+ 	margin-top: 10px;
 }
 .logo a img{
 	width: 100%;
